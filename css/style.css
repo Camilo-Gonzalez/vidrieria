@@ -1,0 +1,168 @@
+
+
+footer{
+    width: 100%;  
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #002366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 90px;
+    margin-bottom: 1rem;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url(../img/facebook.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin: 0.5rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+.social-icon:nth-last-of-type(2){
+    background-image: url(../img/llamada.png);
+}
+
+.social-icon:nth-last-of-type(3){
+    background-image: url(../img/instagram.png);
+}
+
+.social-icon:nth-last-of-type(4){
+    background-image: url(../img/gmail.png);
+}
+
+.social-icon:nth-last-of-type(5){
+    background-image: url(../img/whatsapp.png);
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+    color: white;
+}
+
+.menu-item:hover{
+    opacity: 1;
+   
+}
+
+.copyright{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+}
+
+
+
+.trabajador{
+    height: 60px;
+    width: 60px;
+}
+
+.color1 {
+    background-color: #002366;
+}
+
+.type{
+    font-family: 'Russo One', sans-serif;
+}
+
+.nav-link{
+    font-family: 'Russo One', sans-serif;
+    margin: 0.5rem;
+    
+}
+
+.type2{
+    font-family: 'Teko', sans-serif;
+}
+
+.card-title {
+    font-family: 'Russo One', sans-serif;
+}
+
+.title1{
+    font-family: 'Russo One', sans-serif;
+}
+
+.btnstyle {
+    font-family: 'Lilita One', cursive;
+}
+
+.footer-menu-container {
+    font-family: 'Russo One', sans-serif;
+    
+    
+}
+
+.copyright { 
+    font-family: 'Russo One', sans-serif;
+}
+
+.whats-input {
+    font-family: 'Russo One', sans-serif;
+}
+
+.typetext{
+    font-family: 'Russo One', sans-serif;
+}
+
+.menu-items{
+    margin: 1rem 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.6;
+    color: white;
+}
+
+.menu-items:hover{
+    opacity: 1;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+}
+
+.experiencia {
+    display: flex;
+}
+
+.type3{
+    margin: 0px 4px;
+    font-family: 'Teko', sans-serif;
+}
+
+.title2{
+    font-family: 'Russo One', sans-serif;
+    
+}
+
